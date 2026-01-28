@@ -1,0 +1,282 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./photos/plain.jfif);
+
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+   
+    
+}
+.links{
+    display: inline;
+    list-style: none;
+    margin: 20px 20px;
+    
+    
+}
+.list{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.but{
+    font-size: 18px;
+    color: white;
+    background-color: blue;
+    margin: 5px;
+    border: none
+}
+.but:hover{
+    background-color: white;
+    color: black;
+}
+#image{
+    width: 100px;
+    height: 90px;
+    margin: 10px 20px ;
+}
+#head{
+   color: white;
+   
+
+}
+.text{
+    color: white;
+    font-size: 20px;
+}
+.but{
+    border-radius: 50%;
+   color: white;
+   background-color: green;
+   border: none;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 20px;
+   padding: 20px;
+}
+
+.headSection{
+    margin:50px ;
+}
+h1{
+    font-weight: 700px;
+    font-size: 90px;
+    color: green;
+ align-items: center;
+ text-align: center;
+}
+.firstimage{
+    display: flex;
+   margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+#image1{
+    height: 500px;
+}
+#in{
+   width: 700px;
+   height: 150px;
+   
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 40px;
+ 
+}
+#para{
+    color: green;
+    font-size: 35px;
+    font-weight: 900px;
+}
+.butt{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background-color: green;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    
+}
+.bodysection{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+    margin: 5% 22%;
+    
+}
+#image2{
+    width: 400px;
+    height: 350px;
+}
+.button{
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+#para2{
+    line-height: 1.15rem;
+    font-size: 20px;
+    margin-top: 10px;
+    color: green;
+    
+}
+h3{
+   color: green;
+    font-size: 30px;
+}
+.bodysection2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+    margin: 5% 22%;
+    
+}
+#image3{
+    width: 400px;
+    height: 350px;
+}
+#para3{
+   line-height: 1.15rem;
+    font-size: 20px;
+    margin-top: 10px;
+    color: green; 
+}
+
+.image4{
+    width: 800px;
+    height: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2{
+    color: white;
+    font-size: 50px;
+
+}
+.bag{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paragraph3{
+     margin-top: -300px;
+}
+.lab{
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+    line-height: 4rem;
+}
+.block{
+    
+    width: 150px;
+    height: 30px;
+}
+#party{
+    margin: 0px 40px;
+}
+#dat{
+    margin: 0px 83px;
+}
+#tim{
+    margin: 0px 80px;
+}
+footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 150px;
+    height: 600px;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    align-items: center;
+}
+.connect{
+    margin-top: -40px;
+}
+h5{
+    color: white;
+    font-size: 50px;
+    font-weight: 500px;
+}
+.lastimage{
+    margin: 50px 10px;
+}
+#lastp{
+    color: white;
+    font-size: 20px;
+}
+.visit{
+    margin-top: -45px;
+}
+.days{
+    margin: 20px;
+}
+.join{
+    margin: 55px;
+}
+.id{
+    color: white;
+    font-size: 20px;
+   
+}
+.joinus{
+    margin-top: 25px;
+}
+#email{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+}
+#lastbut{
+    background-color: green;
+    margin-top: 20px;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px white;
+}
+#lastbut:hover{
+    background-color: white;
+    color:black;
+}
+.copyright{
+    text-align: center;
+    margin-top: -30px;
+    color: white;
+
+}
+
+/* mobile */
+
+@media(max-width:576px){
+    
+}
+
+
+
+
